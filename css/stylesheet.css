@@ -12,7 +12,7 @@ body {
     background-color: black;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, .footer-copyright {
+h1, h2, h3, h4, h5, h6, p, a, li{
     color: white;
 }
 /* general styling end */
@@ -163,4 +163,39 @@ h1, h2, h3, h4, h5, h6, p, a, .footer-copyright {
         width: 100%;
     }
     /* index styling end */
+
+    /* about page start */
+    .aboutus{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/jellyfishies.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 85vh;
+    }
+
+    .about-info{
+        background: rgba(0,0,0,0.5);
+    }
+
+    .about-info-text, h1, h2, p, li{
+        margin: 1vh 1vw;
+        margin-left: 1vw;
+        margin-top: 4vh;
+    }
+
+    .about-info-text h1{
+        font-size: 2.5rem;
+        margin-bottom: 4vh;
+    }
+    
+    .about-info-text h2{
+        font-size: 1.5rem;
+        margin-bottom: 3vh;
+    }
+    
+    .about-info-text p{
+        font-size: 1rem;
+    }
+    /* about page end */
 }
