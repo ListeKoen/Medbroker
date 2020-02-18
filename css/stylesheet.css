@@ -146,6 +146,8 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         width: 50%;
         height: auto;
         margin-left: 10%;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
     }
 
     #navigation {
@@ -161,6 +163,18 @@ h1, h2, h3, h4, h5, h6, p, a, li{
 
     .mainimg {
         width: 100%;
+    }
+
+    .index-btn1 {
+        position: absolute;
+        bottom: 15vh;
+        left: 21vw;
+    }
+
+    .index-btn2 {
+        position: absolute;
+        bottom: 15vh;
+        right: 21vw;
     }
     /* index styling end */
 
