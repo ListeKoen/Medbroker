@@ -9,14 +9,16 @@
 }
 
 body {
-    background-color: black;
+    background-color: #1C1C1C;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, li{
     color: white;
+    font-size: 1.2rem;
 }
 /* general styling end */
 
+/* mobile start */
 /* header styling start */
 .desktopnav {
     display: none;
@@ -124,6 +126,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     }
     /* header styling end */
 
+/* mobile end */
+/* desktop start */
+
 @media only screen and (min-width: 768px) {
     
     /* header styling start */
@@ -134,8 +139,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     .desktopnav {
         display: grid;
         grid-template-columns: 1fr 3fr;
-        font-size: 1rem; 
-        background-color: black;
+        background-color: #1C1C1C;
     }
 
     .dropdown:hover .dropdown-menu {
@@ -185,31 +189,80 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/jellyfishies.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 85vh;
+        height: 90vh;
     }
 
     .about-info{
         background: rgba(0,0,0,0.5);
     }
 
-    .about-info-text, h1, h2, p, li{
-        margin: 1vh 1vw;
-        margin-left: 1vw;
+    .about-info-text{
+        margin-left: 3vw;
+    }
+
+    .about-info-text{
+        margin-left: 3vw;
         margin-top: 4vh;
     }
 
     .about-info-text h1{
         font-size: 2.5rem;
-        margin-bottom: 4vh;
-    }
-    
-    .about-info-text h2{
-        font-size: 1.5rem;
         margin-bottom: 3vh;
     }
     
-    .about-info-text p{
-        font-size: 1rem;
+    .about-info-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+    
+    .about-info-text p, li{
+        margin-top: 2vh;
+        font-size: 0.9rem;
+    }
+
+    .about-info-text li{
+        margin-left: 3vw;
+    }
+
+    .about-btns-single{
+        margin-left: 3vw;
+        margin-bottom: 2vh;
+        margin-top: 17vh;
+    }
+
+    .about-btns-row{
+        margin-left: 3vw;
+    }
+    .about-btns-row li{
+        list-style-type: none;
+        display: inline;
+        margin: 0;
+    }
+
+    .about-btns-row .btn{
+        margin-bottom: 1vh;
+    }
+
+    .about-gallery h1{
+        font-size: 2rem;
+        margin-top: 5vh;
+        margin-left: 7.5%;
+        margin-bottom: 1vh;
+    }
+
+    .about-gallery-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .about-gallery-grid img{
+        width: 95%;
+        margin: 2.5%;
+        margin-top: 1vh;
     }
     /* about page end */
+
+/* desktop end */
 }
