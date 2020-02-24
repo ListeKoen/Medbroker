@@ -124,6 +124,8 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
     }
+
+
     /* header styling end */
 
     /* innovation page styling start */
@@ -159,7 +161,6 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     .inno-info-text{
         width: 85%;
         margin-left: 10vw;
-        margin-top: 2vh;
     }
 
     .inno-info-text h1{
@@ -223,7 +224,6 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     .con-info-text{
         width: 85%;
         margin-left: 10vw;
-        margin-top: 2vh;
     }
 
     .con-info-text h1{
@@ -252,6 +252,140 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-top: 5vh;
     }
     /* consulting page styling end */
+
+    /* contact page styling start */
+    .contact-desktop{
+        display: none;
+    }
+    
+    .contact-section1{
+        background-image: url(../img/contact1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .contact-section2{
+        background-image: url(../img/contact2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .section1-text, .section2-text{
+        background: rgba(0,0,0,0.5);
+        height: 90vh;
+    }
+
+    .con-info-text{
+        width: 85%;
+        margin-left: 10vw;
+    }
+
+    .con-info-text h1{
+        font-size: 3rem;
+        padding-top: 4vh;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text h2{
+        font-size: 2rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text p, .con-info-text li{
+        margin-top: 2vh;
+        font-size: 1.1rem;
+    }
+
+    .con-info-text li{
+        margin-left: 3vw;
+    }
+
+    .con-btns-single{
+        margin-left: 10vw;
+        margin-bottom: 2vh;
+        margin-top: 5vh;
+    }
+    /* contact page styling end */
+    
+     /* about page start */
+     .aboutus{
+        background-image: url(../img/jellyfishies.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 115vh;
+    }
+
+    .about-info{
+        background: rgba(0,0,0,0.5);
+        height: 115vh;
+    }
+
+    .about-info-text{
+        width: 85%;
+        margin-left: 10vw;
+    }
+
+    .about-info-text h1{
+        font-size: 3rem;
+        padding-top: 4vh;
+        margin-bottom: 3vh;
+    }
+    
+    .about-info-text h2{
+        font-size: 2rem;
+        margin-bottom: 3vh;
+    }
+    
+    .about-info-text p, .about-info-text li{
+        margin-top: 2vh;
+        font-size: 1.1rem;
+    }
+
+    .about-info-text li{
+        margin-left: 3vw;
+    }
+
+    .about-btns-single{
+        margin-left: 10vw;
+        margin-bottom: 5vh;
+        margin-top: 6vh;
+    }
+
+    .about-btns-row{
+        margin-left: 3vw;
+    }
+    .about-btns-row li{
+        list-style-type: none;
+        display: inline;
+        margin: 0;
+    }
+
+    .about-btns-row .btn{
+        margin-bottom: 1vh;
+    }
+
+    .about-gallery h1{
+        font-size: 2rem;
+        margin-top: 5vh;
+        margin-left: 7.5%;
+        margin-bottom: 1vh;
+    }
+
+    .about-gallery-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .about-gallery-grid img{
+        width: 95%;
+        margin: 2.5%;
+        margin-top: 1vh;
+    }
+    /* about page end */
 
 /* mobile end */
 
@@ -461,7 +595,82 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     }
     /* consulting page styling end */
 
+    /* contact page styling start */
+    .contact-mobile{
+        display: none;
+    }
+
+    .contact-desktop{
+        display: block;
+    }
+
+    .contact-section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/contact1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .contact-section2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/contact2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .section1-text, .section2-text{
+        background: rgba(0,0,0,0.5);
+    }
+
+    .con-info-text{
+        margin-left: 3vw;
+    }
+
+    .con-info-text{
+        margin-left: 3vw;
+        margin-top: 4vh;
+    }
+
+    .con-info-text h1{
+        padding-top: 0;
+        font-size: 2.5rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text p, .con-info-text li{
+        margin-top: 2vh;
+        font-size: 0.9rem;
+    }
+
+    .con-info-text li{
+        margin-left: 3vw;
+    }
+
+    .con-btns-single{
+        margin-left: 3vw;
+        margin-bottom: 2vh;
+        margin-top: 17vh;
+    }
+    /* contact page styling end */
+
     /* about page start */
+    .about-mobile{
+        display: none;
+    }
+
+    .about-desktop{
+        display: block;
+    }
+
     .aboutus{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -485,6 +694,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     }
 
     .about-info-text h1{
+        padding-top: 0;
         font-size: 2.5rem;
         margin-bottom: 3vh;
     }
@@ -542,6 +752,5 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-top: 1vh;
     }
     /* about page end */
-
 /* desktop end */
 }
