@@ -125,9 +125,24 @@ h1, h2, h3, h4, h5, h6, p, a, li{
 /* header styling end */
 
 /* index styling start */
-.mainimg {
+.mainart {
+    position: relative;
     width: 100%;
-}
+  }
+  
+  .mainart img {
+    width: 100%;
+    opacity: 0.7;
+    height: auto;
+  }
+  
+  .mainart .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
  /* index styling end */
 
 @media only screen and (min-width: 768px) {
@@ -167,21 +182,23 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         grid-template-columns: 1fr 1fr;
     }
 
-    .mainimg {
+    .mainart {
+        position: relative;
         width: 100%;
-    }
-
-    .index-btn1 {
+      }
+      
+      .mainart img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .mainart .btn {
         position: absolute;
-        bottom: 15vh;
-        left: 21vw;
-    }
-
-    .index-btn2 {
-        position: absolute;
-        bottom: 15vh;
-        right: 21vw;
-    }
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        bottom: 10%;
+      }
     /* index styling end */
 
     /* innovation styling start */
