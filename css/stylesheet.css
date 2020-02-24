@@ -453,6 +453,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
       .mainart img {
         width: 100%;
         height: auto;
+        height: 92vh;
       }
       
       .mainart .btn {
@@ -495,7 +496,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/sections/innosec1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh;
+        height: 92vh;
     }
 
     .inno-section2{
@@ -504,7 +505,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/sections/innosec2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh;
+        height: 92vh;
     }
 
     .inno-section3{
@@ -513,11 +514,12 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/sections/innosec3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh;  
+        height: 92vh;  
     }
 
     .section1-text, .section2-text, .section3-text, .section4-text{
         background: rgba(0,0,0,0.5);
+        height: 92vh;
     }
 
     .inno-info-text{
@@ -571,7 +573,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/sections/consec1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh;
+        height: 92vh;
     }
 
     .con-section2{
@@ -580,7 +582,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/sections/consec2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh;
+        height: 92vh;
     }
 
     .con-section3{
@@ -589,7 +591,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/sections/consec3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh;  
+        height: 92vh;  
     }
 
     .section1-text, .section2-text, .section3-text, .section4-text{
@@ -647,7 +649,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/contact1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh;
+        height: 92vh;
     }
 
     .contact-section2{
@@ -656,7 +658,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/contact2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh;
+        height: 92vh;
     }
 
     .section1-text, .section2-text{
@@ -714,11 +716,12 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-image: url(../img/jellyfishies.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 90vh;
+        height: 92vh;
     }
 
     .about-info{
         background: rgba(0,0,0,0.5);
+        height: 92vh;
     }
 
     .about-info-text{
@@ -789,5 +792,15 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-top: 1vh;
     }
     /* about page end */
+
+    /* underside skabelon start */
+    .skabelon-section{
+        background-image: url(../img/sections/innosec3.jpg); 
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /* underside skabelon end  */
 /* desktop end */
 }
