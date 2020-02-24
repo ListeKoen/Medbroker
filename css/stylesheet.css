@@ -122,7 +122,13 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
     }
-    /* header styling end */
+/* header styling end */
+
+/* index styling start */
+.mainimg {
+    width: 100%;
+}
+ /* index styling end */
 
 @media only screen and (min-width: 768px) {
     
@@ -177,6 +183,32 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         right: 21vw;
     }
     /* index styling end */
+
+    /* innovation styling start */
+    .top-section-inno, .mid-section-inno, .bot-section-inno {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+    }
+
+    .top-section-inno {
+        background-color: purple;
+    }
+
+    .mid-section-inno {
+        background-color: orange;
+    }
+
+    .bot-section-inno {
+        background-color: purple;
+    }
+
+    .inno-content {
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 5;
+    }
+    /* innovation styling end */
 
     /* about page start */
     .aboutus{

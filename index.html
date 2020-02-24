@@ -22,12 +22,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link moblink" href="catalogue.html">catalogue</a>
                                 </li>
-                                <img src="img/divider.png" alt="divider" class="divider">
-                                <li class="nav-item"><a class="nav-link moblink" href="ectomorph.html">ectomorph</a></li>
-                                <li class="nav-item"><a class="nav-link moblink" href="endomorph.html">endomorph</a></li>
-                                <li class="nav-item"><a class="nav-link moblink" href="mesomorph.html">mesomorph</a></li>
-                                <li class="nav-item"><a class="nav-link moblink" href="accessories.html">accessories</a></li>
-                                <img src="img/divider.png" alt="divider" class="divider">
                                 <li class="nav-item">
                                     <a class="nav-link moblink" href="drink.html">the drink</a>
                                 </li>
@@ -78,6 +72,14 @@
                 </a>
             </article>
         </section>
+
+        <form role="form" action="sendmail.php" method="post">
+            <input name="name" required="required" type="text" placeholder="Enter Your Name" />
+            <input name="email" required="required" type="email" placeholder="Email ID"/>
+            <input name="mobile" required="required" type="text" placeholder="Enter Mobile No"/>
+            <textarea name="message" placeholder="Enter Any Message"></textarea>
+            <input name="submit" type="submit" value="Send a Mail" />
+        </form>
         <!-- Desktop main content end -->
     </main>
 
