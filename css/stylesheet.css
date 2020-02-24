@@ -789,5 +789,15 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-top: 1vh;
     }
     /* about page end */
+
+    /* underside skabelon start */
+    .skabelon-section{
+        background-image: url(../img/sections/innosec3.jpg); 
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /* underside skabelon end  */
 /* desktop end */
 }
