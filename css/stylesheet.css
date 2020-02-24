@@ -614,14 +614,6 @@ li {
     height: 100%;
   }
 
-  .top-section-inno {
-    background-color: purple;
-  }
-
-  .mid-section-inno {
-    background-color: orange;
-  }
-
   /* innovation page styling start */
   .inno-mobile {
     display: none;
@@ -943,4 +935,401 @@ li {
   }
   /* about page end */
   /* desktop end */
+}
+
+/* desktop start */
+@media only screen and (min-width: 768px) {
+    
+    /* header styling start */
+    .mobilnav {
+        display: none;
+    }
+
+    .desktopnav {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        background-color: #1C1C1C;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    #logo {
+        width: 50%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+    #navigation {
+        margin-right: 3%;
+    }
+    /* header styling end */
+
+    /* index styling start */
+    .mainsec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mainart {
+        position: relative;
+        width: 100%;
+      }
+      
+      .mainart img {
+        width: 100%;
+        height: auto;
+        height: 92vh;
+      }
+      
+      .mainart .btn {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        bottom: 10%;
+      }
+    /* index styling end */
+
+    /* innovation styling start */
+    .top-section-inno, .mid-section-inno, .bot-section-inno {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+    }
+
+    .top-section-inno {
+        background-color: purple;
+    }
+
+    .mid-section-inno {
+        background-color: orange;
+    }
+
+    /* innovation page styling start */
+    .inno-mobile{
+        display: none;
+    }
+
+    .inno-desktop{
+        display: block;
+    }
+
+    .inno-section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/innosec1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
+    .inno-section2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/innosec2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
+    .inno-section3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/innosec3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;  
+    }
+
+    .section1-text, .section2-text, .section3-text, .section4-text{
+        background: rgba(0,0,0,0.5);
+        height: 92vh;
+    }
+
+    .inno-info-text{
+        margin-left: 3vw;
+    }
+
+    .inno-info-text{
+        margin-left: 3vw;
+        margin-top: 4vh;
+    }
+
+    .inno-info-text h1{
+        padding-top: 0;
+        font-size: 2.5rem;
+        margin-bottom: 3vh;
+    }
+    
+    .inno-info-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+    
+    .inno-info-text p, .inno-info-text li{
+        margin-top: 2vh;
+        font-size: 0.9rem;
+    }
+
+    .inno-info-text li{
+        margin-left: 3vw;
+    }
+
+    .inno-btns-single{
+        margin-left: 3vw;
+        margin-bottom: 2vh;
+        margin-top: 17vh;
+    }
+
+    /* innovation page styling end */
+
+    /* consulting page styling start */
+    .con-mobile{
+        display: none;
+    }
+
+    .con-desktop{
+        display: block;
+    }
+    .con-section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/consec1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
+    .con-section2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/consec2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
+    .con-section3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/consec3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;  
+    }
+
+    .section1-text, .section2-text, .section3-text, .section4-text{
+        background: rgba(0,0,0,0.5);
+    }
+
+    .con-info-text{
+        margin-left: 3vw;
+    }
+
+    .con-info-text{
+        margin-left: 3vw;
+        margin-top: 4vh;
+    }
+
+    .con-info-text h1{
+        padding-top: 0;
+        font-size: 2.5rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text p, .con-info-text li{
+        margin-top: 2vh;
+        font-size: 0.9rem;
+    }
+
+    .con-info-text li{
+        margin-left: 3vw;
+    }
+
+    .con-btns-single{
+        margin-left: 3vw;
+        margin-bottom: 2vh;
+        margin-top: 17vh;
+    }
+    /* consulting page styling end */
+
+    /* contact page styling start */
+    .contact-mobile{
+        display: none;
+    }
+
+    .contact-desktop{
+        display: block;
+    }
+
+    .contact-section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/contact1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
+    .contact-section2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/contact2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
+    .section1-text, .section2-text{
+        background: rgba(0,0,0,0.5);
+    }
+
+    .con-info-text{
+        margin-left: 3vw;
+    }
+
+    .con-info-text{
+        margin-left: 3vw;
+        margin-top: 4vh;
+    }
+
+    .con-info-text h1{
+        padding-top: 0;
+        font-size: 2.5rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text p, .con-info-text li{
+        margin-top: 2vh;
+        font-size: 0.9rem;
+    }
+
+    .con-info-text li{
+        margin-left: 3vw;
+    }
+
+    .con-btns-single{
+        margin-left: 3vw;
+        margin-bottom: 2vh;
+        margin-top: 17vh;
+    }
+    /* contact page styling end */
+
+    /* about page start */
+    .about-mobile{
+        display: none;
+    }
+
+    .about-desktop{
+        display: block;
+    }
+
+    .aboutus{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/jellyfishies.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
+    .about-info{
+        background: rgba(0,0,0,0.5);
+        height: 92vh;
+    }
+
+    .about-info-text{
+        margin-left: 3vw;
+    }
+
+    .about-info-text{
+        margin-left: 3vw;
+        margin-top: 4vh;
+    }
+
+    .about-info-text h1{
+        padding-top: 0;
+        font-size: 2.5rem;
+        margin-bottom: 3vh;
+    }
+    
+    .about-info-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+    
+    .about-info-text p, .about-info-text li{
+        margin-top: 2vh;
+        font-size: 0.9rem;
+    }
+
+    .about-info-text li{
+        margin-left: 3vw;
+    }
+
+    .about-btns-single{
+        margin-left: 3vw;
+        margin-bottom: 2vh;
+        margin-top: 17vh;
+    }
+
+    .about-btns-row{
+        margin-left: 3vw;
+    }
+    .about-btns-row li{
+        list-style-type: none;
+        display: inline;
+        margin: 0;
+    }
+
+    .about-btns-row .btn{
+        margin-bottom: 1vh;
+    }
+
+    .about-gallery h1{
+        font-size: 2rem;
+        margin-top: 5vh;
+        margin-left: 7.5%;
+        margin-bottom: 1vh;
+    }
+
+    .about-gallery-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .about-gallery-grid img{
+        width: 95%;
+        margin: 2.5%;
+        margin-top: 1vh;
+    }
+    /* about page end */
+
+    /* underside skabelon start */
+    .skabelon-section{
+        background-image: url(../img/sections/innosec3.jpg); 
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /* underside skabelon end  */
+/* desktop end */
 }
