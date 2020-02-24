@@ -126,9 +126,136 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     }
     /* header styling end */
 
-/* mobile end */
-/* desktop start */
+    /* innovation page styling start */
+    .inno-desktop{
+        display: none;
+    }
 
+    .inno-section1{
+        background-image: url(../img/sections/innosec1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .inno-section2{
+        background-image: url(../img/sections/innosec2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .inno-section3{
+        background-image: url(../img/sections/innosec3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;  
+    }
+
+    .section1-text, .section2-text, .section3-text, .section4-text{
+        background: rgba(0,0,0,0.5);
+    }
+
+    .inno-info-text{
+        width: 85%;
+        margin-left: 10vw;
+        margin-top: 2vh;
+    }
+
+    .inno-info-text h1{
+        font-size: 3rem;
+        padding-top: 4vh;
+        margin-bottom: 3vh;
+    }
+    
+    .inno-info-text h2{
+        font-size: 2rem;
+        margin-bottom: 3vh;
+    }
+    
+    .inno-info-text p, .inno-info-text li{
+        margin-top: 2vh;
+        font-size: 1.1rem;
+    }
+
+    .inno-info-text li{
+        margin-left: 3vw;
+    }
+
+    .inno-btns-single{
+        margin-left: 10vw;
+        margin-bottom: 2vh;
+        margin-top: 5vh;
+    }
+    /* innovation page styling end */
+
+    /* consulting page styling start */
+    .con-desktop{
+        display: none;
+    }
+    
+    .con-section1{
+        background-image: url(../img/sections/consec1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .con-section2{
+        background-image: url(../img/sections/consec2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .con-section3{
+        background-image: url(../img/sections/consec3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;  
+    }
+
+    .section1-text, .section2-text, .section3-text, .section4-text{
+        background: rgba(0,0,0,0.5);
+        height: 90vh;
+    }
+
+    .con-info-text{
+        width: 85%;
+        margin-left: 10vw;
+        margin-top: 2vh;
+    }
+
+    .con-info-text h1{
+        font-size: 3rem;
+        padding-top: 4vh;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text h2{
+        font-size: 2rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text p, .con-info-text li{
+        margin-top: 2vh;
+        font-size: 1.1rem;
+    }
+
+    .con-info-text li{
+        margin-left: 3vw;
+    }
+
+    .con-btns-single{
+        margin-left: 10vw;
+        margin-bottom: 2vh;
+        margin-top: 5vh;
+    }
+    /* consulting page styling end */
+
+/* mobile end */
+
+/* desktop start */
 @media only screen and (min-width: 768px) {
     
     /* header styling start */
@@ -182,6 +309,158 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     }
     /* index styling end */
 
+    /* innovation page styling start */
+    .inno-mobile{
+        display: none;
+    }
+
+    .inno-desktop{
+        display: block;
+    }
+
+    .inno-section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/innosec1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .inno-section2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/innosec2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .inno-section3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/innosec3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;  
+    }
+
+    .section1-text, .section2-text, .section3-text, .section4-text{
+        background: rgba(0,0,0,0.5);
+    }
+
+    .inno-info-text{
+        margin-left: 3vw;
+    }
+
+    .inno-info-text{
+        margin-left: 3vw;
+        margin-top: 4vh;
+    }
+
+    .inno-info-text h1{
+        padding-top: 0;
+        font-size: 2.5rem;
+        margin-bottom: 3vh;
+    }
+    
+    .inno-info-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+    
+    .inno-info-text p, .inno-info-text li{
+        margin-top: 2vh;
+        font-size: 0.9rem;
+    }
+
+    .inno-info-text li{
+        margin-left: 3vw;
+    }
+
+    .inno-btns-single{
+        margin-left: 3vw;
+        margin-bottom: 2vh;
+        margin-top: 17vh;
+    }
+
+    /* innovation page styling end */
+
+    /* consulting page styling start */
+    .con-mobile{
+        display: none;
+    }
+
+    .con-desktop{
+        display: block;
+    }
+    .con-section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/consec1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .con-section2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/consec2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .con-section3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/consec3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;  
+    }
+
+    .section1-text, .section2-text, .section3-text, .section4-text{
+        background: rgba(0,0,0,0.5);
+    }
+
+    .con-info-text{
+        margin-left: 3vw;
+    }
+
+    .con-info-text{
+        margin-left: 3vw;
+        margin-top: 4vh;
+    }
+
+    .con-info-text h1{
+        padding-top: 0;
+        font-size: 2.5rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+    
+    .con-info-text p, .con-info-text li{
+        margin-top: 2vh;
+        font-size: 0.9rem;
+    }
+
+    .con-info-text li{
+        margin-left: 3vw;
+    }
+
+    .con-btns-single{
+        margin-left: 3vw;
+        margin-bottom: 2vh;
+        margin-top: 17vh;
+    }
+    /* consulting page styling end */
+
     /* about page start */
     .aboutus{
         display: grid;
@@ -215,7 +494,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-bottom: 3vh;
     }
     
-    .about-info-text p, li{
+    .about-info-text p, .about-info-text li{
         margin-top: 2vh;
         font-size: 0.9rem;
     }
