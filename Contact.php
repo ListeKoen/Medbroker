@@ -3,27 +3,33 @@
  * This example shows how to handle a simple contact form.
  */
 
+//Import PHPMailer classes into the global namespace
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 $msg = '';
 //Don't run this unless we're handling a form submission
 if (array_key_exists('email', $_POST)) {
     date_default_timezone_set('Etc/UTC');
 
-    require '../PHPMailerAutoload.php';
+    require 'path/to/PHPMailer/src/Exception.php';
+    require 'path/to/PHPMailer/src/PHPMailer.php';
+    require 'path/to/PHPMailer/src/SMTP.php';
 
     //Create a new PHPMailer instance
     $mail = new PHPMailer;
     //Tell PHPMailer to use SMTP - requires a local mail server
     //Faster and safer than using mail()
     $mail->isSMTP();
-    $mail->Host = 'localhost';
-    $mail->Port = 25;
+    $mail->Host = 'http://dwobber.com';
+    $mail->Port = 465;
 
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('from@example.com', 'First Last');
+    $mail->setFrom('sebastian@dwobber.com', 'Sebastian Hein');
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('whoto@example.com', 'John Doe');
+    $mail->addAddress('seba269h@edu.easj.dk', 'Seb hein');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
