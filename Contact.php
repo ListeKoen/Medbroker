@@ -14,7 +14,7 @@ if (array_key_exists('email', $_POST)) {
 
     require 'path/to/PHPMailer/src/Exception.php';
     require 'path/to/PHPMailer/src/PHPMailer.php';
-    require 'path/to/PHPMailer/src/SMTP.php';
+    // require 'path/to/PHPMailer/src/SMTP.php';
 
     //Create a new PHPMailer instance
     $mail = new PHPMailer;
