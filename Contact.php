@@ -7,14 +7,14 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+    require 'path/to/PHPMailer/src/Exception.php';
+    require 'path/to/PHPMailer/src/PHPMailer.php';
+    require 'path/to/PHPMailer/src/SMTP.php';
+
 $msg = '';
 //Don't run this unless we're handling a form submission
 if (array_key_exists('email', $_POST)) {
     date_default_timezone_set('Etc/UTC');
-
-    require 'path/to/PHPMailer/src/Exception.php';
-    require 'path/to/PHPMailer/src/PHPMailer.php';
-    // require 'path/to/PHPMailer/src/SMTP.php';
 
     //Create a new PHPMailer instance
     $mail = new PHPMailer;
