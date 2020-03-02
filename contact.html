@@ -93,28 +93,49 @@
             </section>
             <section class="contact-section2">
                 <article class="section2-empty"></article>
-                <article class="section2-text">
-                    <section class="con-info-text">
-                        <h1>About Us </h1>
-                        <h2>Medbroker for success</h2>
-                        <p>We have in-house technologies with-in:</p>
-                        <ul>
-                            <li>-Reproduction (In-Vitro Fertilization)</li>
-                            <li>-Dehydration</li>
-                        </ul>
-                        <p>Medbroker is a ISO 13485:2016 certified company with unique competencies within:</p>
-                        <ul>
-                            <li>-Medical device innovation & Market Access</li>
-                            <li>-Regulatory Compliance</li>
-                            <li>-Strategy and Business Development</li>
-                        </ul>
-                    </section>
-                    <section class=con-btns">
-                        <article class="con-btns-single">
-                            <button type="button" class="btn btn-light">Contact us</button>
-                        </article>
-                    </section>
-                </article>
+                <section class="section2-text">
+                    <article class="contact-contact-form1">
+                        <section>
+                            <img src="img/henrik ansigt.jpg" alt="">
+                        </section>
+                        <section>
+                            <ul>
+                                <li>Henrik Dörge, CEO</li>
+                                <li>Ph.D., M.Sc. MBA</li>
+                                <li> +45 22 14 38 22</li>
+                                <li>ceo@medbroker.dk</li>
+                            </ul>
+                        </section>
+                    </article>
+                    <article class="contact-contact-form2">
+                        <h1>Contact us</h1>
+                        <form method="POST" name="contactform" action="kontaktform/contact-form-handler.php">
+                            <p class="contact-contact-input">
+                                <label for='name'>Your Name:</label> <br>
+                                <input type="text" name="name">
+                            </p>
+                            <p class="contact-contact-input">
+                                <label for='email'>Email Address:</label> <br>
+                                <input type="text" name="email"> <br>
+                            </p>
+                            <p>
+                                <label for='message'>Message:</label> <br>
+                                <textarea name="message"></textarea>
+                            </p>
+                            <button class="btn btn-light" type="submit" value="Submit">Send</button><br>
+                        </form>
+
+                        <script language="JavaScript">
+                            // Code for validating the form
+                            // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+                            // for details
+                            var frmvalidator = new Validator("contactform");
+                            frmvalidator.addValidation("name", "req", "Please provide your name");
+                            frmvalidator.addValidation("email", "req", "Please provide your email");
+                            frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
+                        </script>
+                    </article>
+                </section>
             </section>
         </section>
         <!-- Desktop main content end -->
@@ -146,28 +167,49 @@
                 </article>
             </section>
             <section class="contact-section2">
-                <article class="section2-text">
-                    <section class="con-info-text">
-                        <h1>About Us </h1>
-                        <h2>Medbroker for success</h2>
-                        <p>We have in-house technologies with-in:</p>
-                        <ul>
-                            <li>-Reproduction (In-Vitro Fertilization)</li>
-                            <li>-Dehydration</li>
-                        </ul>
-                        <p>Medbroker is a ISO 13485:2016 certified company with unique competencies within:</p>
-                        <ul>
-                            <li>-Medical device innovation & Market Access</li>
-                            <li>-Regulatory Compliance</li>
-                            <li>-Strategy and Business Development</li>
-                        </ul>
-                    </section>
-                    <section class=con-btns">
-                        <article class="con-btns-single">
-                            <button type="button" class="btn btn-light">Contact us</button>
-                        </article>
-                    </section>
-                </article>
+                <section class="section2-text">
+                    <article class="contact-contact-form1">
+                        <section>
+                            <img src="img/henrik ansigt.jpg" alt="">
+                        </section>
+                        <section>
+                            <ul>
+                                <li>Henrik Dörge, CEO</li>
+                                <li>Ph.D., M.Sc. MBA</li>
+                                <li> +45 22 14 38 22</li>
+                                <li>ceo@medbroker.dk</li>
+                            </ul>
+                        </section>
+                    </article>
+                    <article class="contact-contact-form2">
+                        <h1>Contact us</h1>
+                        <form method="POST" name="contactform" action="kontaktform/contact-form-handler.php">
+                            <p class="contact-contact-input">
+                                <label for='name'>Your Name:</label> <br>
+                                <input type="text" name="name">
+                            </p>
+                            <p class="contact-contact-input">
+                                <label for='email'>Email Address:</label> <br>
+                                <input type="text" name="email"> <br>
+                            </p>
+                            <p>
+                                <label for='message'>Message:</label> <br>
+                                <textarea name="message"></textarea>
+                            </p>
+                            <button class="btn btn-light" type="submit" value="Submit">Send</button><br>
+                        </form>
+
+                        <script language="JavaScript">
+                            // Code for validating the form
+                            // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+                            // for details
+                            var frmvalidator = new Validator("contactform");
+                            frmvalidator.addValidation("name", "req", "Please provide your name");
+                            frmvalidator.addValidation("email", "req", "Please provide your email");
+                            frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
+                        </script>
+                    </article>
+                </section>
             </section>
         </section>
         <!-- Mobile main content end -->

@@ -80,32 +80,42 @@
             </article>
         </section>
         <section class="contact-form">
-            <h1>Contact us</h1>
-            <form method="POST" name="contactform" action="kontaktform/contact-form-handler.php">
-                <p>
-                    <label for='name'>Your Name:</label> <br>
-                    <input type="text" name="name">
-                </p>
-                <p>
-                    <label for='email'>Email Address:</label> <br>
-                    <input type="text" name="email"> <br>
-                </p>
-                <p>
-                    <label for='message'>Message:</label> <br>
-                    <textarea name="message"></textarea>
-                </p>
-                <input type="submit" value="Submit"><br>
-            </form>
+            <article class="contact-form1">
+                <img src="img/henrik ansigt.jpg" alt="">
+                <p>Henrik Dörge, CEO</p>
+                <p>Ph.D., M.Sc. MBA</p>
+                <br>
+                <p> +45 22143822</p>
+                <p>ceo@medbroker.dk</p>
+            </article>
+            <article class="contact-form2">
+                <h1>Contact us</h1>
+                <form method="POST" name="contactform" action="kontaktform/contact-form-handler.php">
+                    <p class="contact-input">
+                        <label for='name'>Your Name:</label> <br>
+                        <input type="text" name="name">
+                    </p>
+                    <p class="contact-input">
+                        <label for='email'>Email Address:</label> <br>
+                        <input type="text" name="email"> <br>
+                    </p>
+                    <p>
+                        <label for='message'>Message:</label> <br>
+                        <textarea name="message"></textarea>
+                    </p>
+                    <button class="btn btn-outline-dark" type="submit" value="Submit">Send</button><br>
+                </form>
 
-            <script language="JavaScript">
-                // Code for validating the form
-                // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-                // for details
-                var frmvalidator = new Validator("contactform");
-                frmvalidator.addValidation("name", "req", "Please provide your name");
-                frmvalidator.addValidation("email", "req", "Please provide your email");
-                frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
-            </script>
+                <script language="JavaScript">
+                    // Code for validating the form
+                    // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+                    // for details
+                    var frmvalidator = new Validator("contactform");
+                    frmvalidator.addValidation("name", "req", "Please provide your name");
+                    frmvalidator.addValidation("email", "req", "Please provide your email");
+                    frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
+                </script>
+            </article>
         </section>
         <!-- Desktop main content end -->
     </main>
