@@ -1,7 +1,12 @@
-/* general styling start */
+/* general start */
 @font-face {  /*This code adds a new font-face, which can be used in the product*/
     src: url("../font/Montserrat-Light.ttf");
     font-family: Monlight;
+}
+
+:root {
+    --purple: #3B3646;
+    --red: #EE4B5A;
 }
 
 * {
@@ -16,10 +21,97 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     color: white;
     font-size: 1.2rem;
 }
-/* general styling end */
+/* general end */
+
+/* cookie popup start */
+#gdpr-cookie-message {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    max-width: 375px;
+    background-color: var(--purple);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.25);
+    margin-left: 30px;
+    font-family: system-ui;
+}
+#gdpr-cookie-message h4 {
+    color: var(--red);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#gdpr-cookie-message h5 {
+    color: var(--red);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#gdpr-cookie-message p, #gdpr-cookie-message ul {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+#gdpr-cookie-message p:last-child {
+    margin-bottom: 0;
+    text-align: right;
+}
+#gdpr-cookie-message li {
+    width: 49%;
+    display: inline-block;
+}
+#gdpr-cookie-message a {
+    color: var(--red);
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted rgba(255,255,255,0.75);
+    transition: all 0.3s ease-in;
+}
+#gdpr-cookie-message a:hover {
+    color: white;
+    border-bottom-color: var(--red);
+    transition: all 0.3s ease-in;
+}
+#gdpr-cookie-message button,
+button#ihavecookiesBtn {
+    border: none;
+    background: var(--red);
+    color: white;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 3px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+#gdpr-cookie-message button:hover {
+    background: white;
+    color: var(--red);
+    transition: all 0.3s ease-in;
+}
+button#gdpr-cookie-advanced {
+    background: white;
+    color: var(--red);
+}
+#gdpr-cookie-message button:disabled {
+    opacity: 0.3;
+}
+#gdpr-cookie-message input[type="checkbox"] {
+    float: none;
+    margin-top: 0;
+    margin-right: 5px;
+}
+#gdpr-cookie-types label {
+    font-size: 0.9rem;
+}
+/* cookie popup end */
 
 /* mobile start */
-/* header styling start */
+/* header start */
 .desktopnav {
     display: none;
 }
@@ -124,9 +216,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
     }
-/* header styling end */
+/* header end */
 
-/* index styling start */
+/* index start */
 .mainart {
     position: relative;
     width: 100%;
@@ -198,10 +290,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     width: 100%;
     padding-bottom: 8vh;
   }
+ /* index end */
 
- /* index styling end */
-
-    /* innovation page styling start */
+    /* innovation start */
     .inno-desktop{
         display: none;
     }
@@ -279,9 +370,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-bottom: 2vh;
         margin-top: 5vh;
     }
-    /* innovation page styling end */
+    /* innovation end */
 
-    /* consulting page styling start */
+    /* consulting start */
     .con-desktop{
         display: none;
     }
@@ -342,9 +433,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-bottom: 2vh;
         margin-top: 5vh;
     }
-    /* consulting page styling end */
+    /* consulting end */
 
-    /* contact page styling start */
+    /* contact start */
     .contact-desktop{
         display: none;
     }
@@ -451,9 +542,10 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-bottom: 2vh;
         margin-top: 1vh;
       }
-    /* contact page styling end */
+    /* contact end */
+
     
-     /* about page start */
+     /* about start */
      .aboutus{
         background-image: url(../img/jellyfishies.jpg);
         background-repeat: no-repeat;
@@ -529,9 +621,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin: 2.5%;
         margin-top: 1vh;
     }
-    /* about page end */
+    /* about end */
     
-    /* skabelon page start */
+    /* skabelon start */
     .skabelon-section{
         background-image: url(../img/sections/innosec3.jpg); 
         height: 100%;
@@ -585,7 +677,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         grid-template-columns: 1fr 1fr;
     }
 
-    /* skabelon page end */
+    /* skabelon end */
 
     /* footer start */
     .full {
@@ -699,7 +791,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
 /* desktop start */
 @media only screen and (min-width: 768px) {
     
-    /* header styling start */
+    /* header start */
     .mobilnav {
         display: none;
     }
@@ -725,9 +817,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
     #navigation {
         margin-right: 3%;
     }
-    /* header styling end */
+    /* header end */
 
-    /* index styling start */
+    /* index start */
     .mainsec {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -805,9 +897,10 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         width: 100%;
         padding-bottom: 21vh;
       }
-    /* index styling end */
+    /* index end */
 
-    /* innovation styling start */
+
+    /* innovation start */
     .top-section-inno, .mid-section-inno, .bot-section-inno {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -823,7 +916,6 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         background-color: orange;
     }
 
-    /* innovation page styling start */
     .inno-mobile{
         display: none;
     }
@@ -917,9 +1009,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-top: 17vh;
     }
 
-    /* innovation page styling end */
+    /* innovation end */
 
-    /* consulting page styling start */
+    /* consulting start */
     .con-mobile{
         display: none;
     }
@@ -992,9 +1084,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-bottom: 2vh;
         margin-top: 17vh;
     }
-    /* consulting page styling end */
+    /* consulting end */
 
-    /* contact page styling start */
+    /* contact start */
     .contact-mobile{
         display: none;
     }
@@ -1113,9 +1205,9 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin-bottom: 0;
         margin-top: 1vh;
       }
-    /* contact page styling end */
+    /* contact end */
 
-    /* about page start */
+    /* about start */
     .about-mobile{
         display: none;
     }
@@ -1205,7 +1297,7 @@ h1, h2, h3, h4, h5, h6, p, a, li{
         margin: 2.5%;
         margin-top: 1vh;
     }
-    /* about page end */
+    /* about end */
 
     /* underside skabelon start */
     .skabelon-section-top{
