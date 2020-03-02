@@ -237,11 +237,71 @@ button#gdpr-cookie-advanced {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
+  .contact-form{
+    background: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 5%;
+    margin-bottom: 5vh;
+  }
+
+  .contact-form h1{
+    font-size: 1.7rem;
+  }
+
+  .contact-form h1, .contact-form p{
+    margin-bottom: 3vh;
+    color: black;
+  }
+
+  .contact-form label{
+    margin-bottom: 1.5vh;
+  }
+
+  .contact-form1{
+      margin: 2vw 5vw;
+  }
+
+  .contact-form1 img{
+      width: 100%;
+      margin-top: 2vh;
+      margin-bottom: 5vh;
+  }
+
+  .contact-form1 p{
+      font-size: 1.2rem;
+  }
+
+  .contact-form2{
+    width: 88%;
+    margin-left: 10%;
+    margin-top: 10vh;
+    padding-bottom: 5vh;
+  }
+
+  
+  input[type=text]{
+    width: 100%;
+  }
+
+  textarea{
+    width: 100%;
+    padding-bottom: 8vh;
+  }
  /* index end */
 
     /* innovation start */
     .inno-desktop{
         display: none;
+    }
+
+    .inno-section-top{
+        background-image: url(../img/sections/innosec1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
     }
 
     .inno-section1{
@@ -265,7 +325,16 @@ button#gdpr-cookie-advanced {
         height: 92vh;  
     }
 
-    .section1-text, .section2-text, .section3-text{
+    .inno-section4{
+        background-image: url(../img/sections/innosec1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
+    .section-top-text, 
+    .section1-text, .section2-text, 
+    .section3-text, .section4-text{
         background: rgba(0,0,0,0.5);
         height: 92vh;
         
@@ -420,7 +489,61 @@ button#gdpr-cookie-advanced {
         margin-bottom: 2vh;
         margin-top: 5vh;
     }
+    
+    .contact-contact-form1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        padding-top: 5vh;
+        margin-left: 5%;
+      }
+    
+      .contact-contact-form h1{
+        font-size: 1.7rem;
+        margin-bottom: 3vh;
+      }
+    
+      .contact-contact-form label{
+        margin-bottom: 1.5vh;
+      }
+    
+      .contact-contact-form1 img{
+          width: 100%;
+      }
+    
+      .contact-contact-form1 li{
+          font-size: 1.2rem;
+          margin-left: 4vw;
+          margin-bottom: 3vh;
+      }
+    
+      .contact-contact-form2{
+        width: 90%;
+        margin-left: 10vw;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+      }
+
+      .contact-contact-form2 h1{
+          font-size: 2rem;
+          margin-bottom: 2vh;
+          margin-top: 2vh;
+      }
+    
+      input[type=text]{
+        width: 90%;
+        margin-bottom: 2vh;
+        margin-top: 1vh;
+      }
+    
+      textarea{
+        width: 90%;
+        padding-bottom: 12vh;
+        margin-bottom: 2vh;
+        margin-top: 1vh;
+      }
     /* contact end */
+
     
      /* about start */
      .aboutus{
@@ -518,6 +641,10 @@ button#gdpr-cookie-advanced {
         padding-bottom: 4vh;
         
     }
+    
+    .skabelon-section section{
+        margin-bottom: 7vh;
+    }
 
     .skabelon-text-section h1{
         font-size: 3rem;
@@ -528,6 +655,7 @@ button#gdpr-cookie-advanced {
     .skabelon-text-section h2{
         font-size: 2rem;
         margin-bottom: 3vh;
+        margin-top: 2vh;
     }
     
     .skabelon-text-section p, .skabelon-text-section li{
@@ -715,7 +843,62 @@ button#gdpr-cookie-advanced {
         -ms-transform: translate(-50%, -50%);
         bottom: 10%;
       }
+
+      .contact-form{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        background: rgba(255, 255, 255, 0.8);
+        width: 90%;
+        height: auto;
+        margin-top: 5vh;
+        margin-left: 5%;
+        margin-bottom: 5vh;
+      }
+    
+      .contact-form h1{
+        font-size: 1.7rem;
+        color: black;
+      }
+    
+      .contact-form h1, p{
+        margin-bottom: 3vh;
+      }
+    
+      .contact-form label{
+        margin-bottom: 1.5vh;
+      }
+    
+      .contact-form1{
+          margin: 2vw 5vw;
+      }
+    
+      .contact-form1 img{
+          width: 100%;
+          margin-bottom: 5vh;
+      }
+    
+      .contact-form1 p{
+          font-size: 1.2rem;
+          color: black;
+      }
+    
+      .contact-form2{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+      }
+    
+      input[type=text]{
+        width: 100%;
+      }
+    
+      textarea{
+        width: 100%;
+        padding-bottom: 21vh;
+      }
     /* index end */
+
 
     /* innovation start */
     .top-section-inno, .mid-section-inno, .bot-section-inno {
@@ -741,6 +924,15 @@ button#gdpr-cookie-advanced {
         display: block;
     }
 
+    .inno-section-top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/innosectop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+    
     .inno-section1{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -768,7 +960,16 @@ button#gdpr-cookie-advanced {
         height: 92vh;  
     }
 
-    .section1-text, .section2-text, .section3-text, .section4-text{
+    .inno-section4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/innosec1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
+    .section-top-text, .section1-text, .section2-text, .section3-text, .section4-text{
         background: rgba(0,0,0,0.5);
         height: 92vh;
     }
@@ -950,6 +1151,60 @@ button#gdpr-cookie-advanced {
         margin-bottom: 2vh;
         margin-top: 17vh;
     }
+
+    .contact-contact-form1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 90%;
+        padding-top: 5vh;
+        margin-left: 5%;
+      }
+    
+      .contact-contact-form h1{
+        font-size: 1.7rem;
+        margin-bottom: 3vh;
+      }
+    
+      .contact-contact-form label{
+        margin-bottom: 1.5vh;
+      }
+    
+      .contact-contact-form1 img{
+          width: 80%;
+      }
+    
+      .contact-contact-form1 li{
+          font-size: 1.2rem;
+          margin-left: 3vw;
+          margin-bottom: 3vh;
+          margin-top: 2vh;
+      }
+    
+      .contact-contact-form2{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+      }
+
+      .contact-contact-form2 h1{
+          font-size: 2rem;
+          margin-bottom: 2vh;
+          margin-top: 0;
+      }
+    
+      input[type=text]{
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 1vh;
+      }
+    
+      textarea{
+        width: 100%;
+        padding-bottom: 12vh;
+        margin-bottom: 0;
+        margin-top: 1vh;
+      }
     /* contact end */
 
     /* about start */
@@ -1045,9 +1300,8 @@ button#gdpr-cookie-advanced {
     /* about end */
 
     /* underside skabelon start */
-    .skabelon-section{
-        background-image: url(../img/sections/innosec3.jpg); 
-        height: 100%;
+    .skabelon-section-top{
+        background-image: url(../img/sections/innosectop.jpg); 
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
@@ -1063,6 +1317,10 @@ button#gdpr-cookie-advanced {
         padding-bottom: 4vh;
     }
 
+    .skabelon-section-top section{
+        margin-bottom: 7vh;
+    }
+
     .skabelon-text-section h1{
         padding-top: 0;
         font-size: 2.5rem;
@@ -1072,15 +1330,18 @@ button#gdpr-cookie-advanced {
     .skabelon-text-section h2{
         font-size: 1.3rem;
         margin-bottom: 3vh;
+        margin-top: 1vh;
     }
     
     .skabelon-text-section p, .skabelon-text-section li{
-        margin-top: 2vh;
+        margin-top: 1vh;
         font-size: 0.9rem;
+        margin-bottom: 2vh;
     }
 
     .skabelon-text-section li{
         margin-left: 3vw;
+        margin-bottom: 3vh;
     }
 
     .skabelon-text-section img{
