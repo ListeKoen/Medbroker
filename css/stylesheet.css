@@ -81,8 +81,8 @@ button#ihavecookiesBtn {
     border: none;
     background: var(--red);
     color: white;
-    font-size: 15px;
-    padding: 7px;
+    font-size: 1.5rem;
+    padding-right: 7px;
     border-radius: 3px;
     margin-left: 15px;
     cursor: pointer;
@@ -219,78 +219,106 @@ button#gdpr-cookie-advanced {
 /* header end */
 
 /* index start */
-.mainart {
-    position: relative;
-    width: 100%;
-  }
-  
-  .mainart img {
-    width: 100%;
-    opacity: 0.7;
-    height: auto;
-  }
-  
-  .mainart .btn {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+.mainbg {
+    display: grid;
+    background-image: url(../img/consult.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+}
 
-  .contact-form{
+.mainsec{
+    background: rgba(0,0,0,0.5);
+   
+}
+
+.main-text{
+    margin: 5vh 10vw;
+}
+
+.main-text h1{
+    font-size: 3rem;
+    margin-bottom: 2vh;
+}
+
+.main-text h2{
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
+
+.main-text p{
+    font-size: 1.1rem;
+    margin-bottom: 1vh;
+}
+ .main-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-buttons .index-btn1 {
+    position: relative;
+    left: 30%;
+    bottom: 7%;
+}
+
+.main-buttons .index-btn2 {
+    position: relative;
+    right: 30%;
+    bottom: 7%;
+}
+
+.contact-form{
     background: rgba(255, 255, 255, 0.8);
     width: 90%;
     height: auto;
-    margin-top: 5vh;
+    margin-top: 2vh;
     margin-left: 5%;
-    margin-bottom: 5vh;
-  }
+    margin-bottom: 2vh;
+}
 
-  .contact-form h1{
+.contact-form h1{
     font-size: 1.7rem;
-  }
+}
 
-  .contact-form h1, .contact-form p{
-    margin-bottom: 3vh;
+.contact-form h1, .contact-form p{
+    margin-bottom: 1vh;
     color: black;
-  }
+}
 
-  .contact-form label{
+.contact-form label{
     margin-bottom: 1.5vh;
-  }
+}
 
-  .contact-form1{
+.contact-form1{
       margin: 2vw 5vw;
-  }
+}
 
-  .contact-form1 img{
+.contact-form1 img{
       width: 100%;
       margin-top: 2vh;
       margin-bottom: 5vh;
-  }
+}
 
-  .contact-form1 p{
+.contact-form1 p{
       font-size: 1.2rem;
-  }
+}
 
-  .contact-form2{
+.contact-form2{
     width: 88%;
     margin-left: 10%;
-    margin-top: 10vh;
+    margin-top: 5vh;
     padding-bottom: 5vh;
-  }
+}
 
-  
-  input[type=text]{
+input[type=text]{
     width: 100%;
-  }
+}
 
-  textarea{
+textarea{
     width: 100%;
     padding-bottom: 8vh;
-  }
- /* index end */
+}
+     /* index end */
 
     /* innovation start */
     .inno-desktop{
@@ -298,7 +326,7 @@ button#gdpr-cookie-advanced {
     }
 
     .inno-section-top{
-        background-image: url(../img/sections/innosec1.jpg);
+        background-image: url(../img/sections/innosectop.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 92vh;
@@ -624,9 +652,8 @@ button#gdpr-cookie-advanced {
     /* about end */
     
     /* skabelon start */
-    .skabelon-section{
-        background-image: url(../img/sections/innosec3.jpg); 
-        height: 100%;
+    .skabelon-section-top{
+        background-image: url(../img/sections/innosectop.jpg); 
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
@@ -642,7 +669,7 @@ button#gdpr-cookie-advanced {
         
     }
     
-    .skabelon-section section{
+    .skabelon-text-section section{
         margin-bottom: 7vh;
     }
 
@@ -711,7 +738,7 @@ button#gdpr-cookie-advanced {
 	line-height: 27px;
 	padding: 40px 0 0px;
 	text-transform: uppercase;
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .footer h4 {
@@ -820,28 +847,49 @@ button#gdpr-cookie-advanced {
     /* header end */
 
     /* index start */
-    .mainsec {
+    .mainbg {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/consult.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+    
+    .mainsec{
+        background: rgba(0,0,0,0.5);
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 
-    .mainart {
-        position: relative;
-        width: 100%;
-      }
-      
-      .mainart img {
-        width: 100%;
-        height: auto;
-        height: 92vh;
-      }
-      
-      .mainart .btn {
+    .main-text{
+        margin: 7vh 7vw;
+    }
+    
+    .main-text h1{
+        font-size: 2.5rem;
+        margin-bottom: 4vh;
+    }
+
+    .main-text h2{
+        font-size: 1.3rem;
+        margin-bottom: 4vh;
+    }
+
+    .main-text p{
+        font-size: 0.9rem;
+        margin-bottom: 4vh;
+    }
+         
+      .main-buttons .index-btn1 {
         position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        bottom: 10%;
+        left: 25%;
+        bottom: 15%;
+      }
+
+      .main-buttons .index-btn2 {
+        position: absolute;
+        right: 25%;
+        bottom: 15%;
       }
 
       .contact-form{
