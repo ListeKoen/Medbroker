@@ -247,7 +247,7 @@ button#gdpr-cookie-advanced {
 }
 
 .main-text p{
-    font-size: 1.1rem;
+    font-size: 1.22rem;
     margin-bottom: 1vh;
 }
  .main-buttons{
@@ -354,7 +354,7 @@ textarea{
     }
 
     .inno-section4{
-        background-image: url(../img/sections/innosec1.jpg);
+        background-image: url(../img/sections/innosec4.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 92vh;
@@ -380,13 +380,13 @@ textarea{
     }
     
     .inno-info-text h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 3vh;
     }
     
     .inno-info-text p, .inno-info-text li{
         margin-top: 2vh;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .inno-info-text li{
@@ -426,6 +426,13 @@ textarea{
         height: 92vh;
     }
 
+    .con-section4{
+        background-image: url(../img/sections/consec4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+
     .section1-text, .section2-text, .section3-text, .section4-text{
         background: rgba(0,0,0,0.5);
         height: 92vh;
@@ -443,13 +450,13 @@ textarea{
     }
     
     .con-info-text h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 3vh;
     }
     
     .con-info-text p, .con-info-text li{
         margin-top: 2vh;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .con-info-text li{
@@ -499,13 +506,13 @@ textarea{
     }
     
     .con-info-text h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 3vh;
     }
     
     .con-info-text p, .con-info-text li{
         margin-top: 2vh;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .con-info-text li{
@@ -604,7 +611,7 @@ textarea{
     
     .about-info-text p, .about-info-text li{
         margin-top: 2vh;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .about-info-text li{
@@ -876,7 +883,7 @@ textarea{
     }
 
     .main-text p{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         margin-bottom: 4vh;
     }
          
@@ -1011,7 +1018,7 @@ textarea{
     .inno-section4{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        background-image: url(../img/sections/innosec1.jpg);
+        background-image: url(../img/sections/innosec4.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 92vh;
@@ -1094,6 +1101,15 @@ textarea{
         height: 92vh;  
     }
 
+    .con-section4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../img/sections/consec4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;  
+    }
+
     .section1-text, .section2-text, .section3-text, .section4-text{
         background: rgba(0,0,0,0.5);
     }
@@ -1120,7 +1136,7 @@ textarea{
     
     .con-info-text p, .con-info-text li{
         margin-top: 2vh;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .con-info-text li{
@@ -1187,7 +1203,7 @@ textarea{
     
     .con-info-text p, .con-info-text li{
         margin-top: 2vh;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .con-info-text li{
